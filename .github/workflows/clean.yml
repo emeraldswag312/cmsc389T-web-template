@@ -15,5 +15,5 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          unlias rm
+          unalias rm
           rm -f cmsc389T-web-template
